@@ -1,0 +1,50 @@
+html, body{
+    display: block;
+    margin:auto;
+    overflow-x: hidden;
+    max-width:100%;
+}
+
+/* This is the filter */
+article{
+    width: 10.5em;
+    padding: 0.5em;
+    margin: 5em 9em auto auto;
+}
+/* The word 'filter' */
+h4{
+    text-align: left;
+    padding-left: 1em;
+    display:inline;
+    width: 1em;
+}
+/* Filter Dropdown */
+.dropdown{
+    display: inline;
+    margin-left: 10%;
+}
+/* The Advert Box */
+section{
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+img:hover {
+    box-shadow: 0 0 1em rgba(0, 0, 0, 25);
+    transition: 0.2s;
+}
+
+.well{
+    width:300px;
+    display: block;
+    margin: 0.5em auto 0 auto;
+}
+
+.well p:first-child{
+    display: inline;
+    margin-right: 20%;
+}
+.well p:nth-child(2){
+    display: inline;
+}
